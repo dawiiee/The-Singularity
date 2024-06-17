@@ -2,16 +2,6 @@
 export async function openCustomPage(
     pageName: string,
     title: string,
-    entityName: string,
-    id: string,
-    width: number | string,
-    height: number | string,
-    target: 1 | 2 | 3,
-    position: 1 | 2,
-): Promise<void>;
-export async function openCustomPage(
-    pageName: string,
-    title: string,
     entityName = "",
     id = "",
     width: number | string = 600,
