@@ -1,8 +1,11 @@
 # Open Custom Page Function Documentation
 
-This documentation explains how to use the `openCustomPage` JavaScript function to open a custom page in Dynamics 365 Model-Driven Apps. It includes setup instructions, parameter descriptions, usage examples, and credits.
+This documentation explains how to use the `openCustomPage` JavaScript function to open a custom page in Dynamics 365 Model-Driven Apps. It includes setup instructions, parameter descriptions, usage examples.
 
 ---
+
+## Original Credits
+Thanks to Benedikt Bergmann & Sara Lagerquist for the original one script to rule them all! 
 
 ## Setup Instructions
 
@@ -56,3 +59,7 @@ openCustomPage(
     true,
     true
 );
+
+
+
+
