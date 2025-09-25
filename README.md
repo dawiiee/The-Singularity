@@ -37,7 +37,7 @@ To use this function as a command button on a form in Model-Driven Apps:
 | `height`             | string/number  | Height in px or %, e.g., `"400px"` or `"70%"`. Default is `400`. |
 | `target`             | number         | 1 = Inline, 2 = Dialog. Default is `2`. |
 | `position`           | number         | 1 = Center, 2 = Far side. Default is `1`. |
-| `entityName`         | string         | Entity logical name to fetch data for title placeholders. |
+| `entityName`         | string         | Entity logical name to fetch data for title placeholders. Can be used in params("entityName") to decide from which entity the form was opened.|
 | `id`                 | string         | Record ID to fetch data for title placeholders. |
 | `saveBeforeOpen`     | boolean        | Whether to save the form before opening. Default is `false`. |
 | `refreshAfterClose`  | boolean        | Whether to refresh the form after closing dialog. Default is `false`. |
