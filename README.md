@@ -29,18 +29,18 @@ To use this function as a command button on a form in Model-Driven Apps:
 
 ## Function Parameters
 
-| Parameter            | Type           | Description |
-|----------------------|----------------|-------------|
-| `pageName`           | string         | Name of the custom page to open. |
-| `title`              | string         | Title of the custom page. Can include placeholders like `{fullname}`. |
-| `width`              | string/number  | Width in px or %, e.g., `"600px"` or `"80%"`. Default is `600`. |
-| `height`             | string/number  | Height in px or %, e.g., `"400px"` or `"70%"`. Default is `400`. |
-| `target`             | number         | 1 = Inline, 2 = Dialog. Default is `2`. |
-| `position`           | number         | 1 = Center, 2 = Far side. Default is `1`. |
-| `entityName`         | string         | Entity logical name to fetch data for title placeholders. Can be used in params("entityName") to decide from which entity the form was opened.|
-| `id`                 | string         | Record ID to fetch data for title placeholders. |
-| `saveBeforeOpen`     | boolean        | Whether to save the form before opening. Default is `false`. |
-| `refreshAfterClose`  | boolean        | Whether to refresh the form after closing dialog. Default is `false`. |
+| Order | Parameter            | Type           | Description |
+|-------|----------------------|----------------|-------------|
+|   1   | `pageName`           | string         | Name of the custom page to open. |
+|   2   | `title`              | string         | Title of the custom page. Can include placeholders like `{fullname}`. |
+|   3   | `width`              | string/number  | Width in px or %, e.g., `"600px"` or `"80%"`. Default is `600`. |
+|   4   | `height`             | string/number  | Height in px or %, e.g., `"400px"` or `"70%"`. Default is `400`. |
+|   5   | `target`             | number         | 1 = Inline, 2 = Dialog. Default is `2`. |
+|   6   | `position`           | number         | 1 = Center, 2 = Far side. Default is `1`. |
+|   7   | `entityName`         | string         | Entity logical name to fetch data for title placeholders. Can be used in params("entityName") to decide from which entity the form was opened.|
+|   8   | `id`                 | string         | Record ID to fetch data for title placeholders. |
+|   9   | `saveBeforeOpen`     | boolean        | Whether to save the form before opening. Default is `false`. |
+|   10   | `refreshAfterClose`  | boolean        | Whether to refresh the form after closing dialog. Default is `false`. |
 
 ---
 
